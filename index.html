@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,16 +10,34 @@
     <div id="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <!-- To Do: Wifi Icon -->
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <!-- battery Icon -->
-        <!-- Lightning Icon -->
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
+    <div>
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KAKAO Clone</h1>
+        <p class="welcome-header__text">
+          카카오 계정이 있으시다면,<br />이메일 또는 전화번호로 로그인하세요.
+        </p>
+      </header>
+      <form id="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Long In" />
+        <a href="#">Find KAKAO Acount or password</a>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
